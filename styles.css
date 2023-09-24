@@ -19,12 +19,13 @@ img {
   max-width: 40%;
 }
 .form {
+ margin: 50px;
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-
+ justify-content: center;
+  gap: 60px;
 }
 
 #form-p1{
@@ -36,32 +37,42 @@ img {
 #form-p2{
 display: flex;
 flex-direction: column;
-    
+gap: 30px
 
 }
 
 #form-p3{
-
+display: flex;
+flex-direction: column;
+align-items: flex-start;
 }
 
+#form-p3 button{
+   position: relative;
+    }
 
 .form-field{
     display: flex;
-    margin: 10px;
+  
     flex-direction: column;
+    gap: 10px;
 }
 .form-field-container{
  
     display: flex;
-    margin-left: 40px;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
+    margin-right: 80px;
+    
 
 }
 
 .fields-global-container{
     display: flex;
-    gap: 40px;
+    flex-wrap: wrap;
+  
+    align-items: center;
+    
+
 }
