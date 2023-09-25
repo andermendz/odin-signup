@@ -36,7 +36,8 @@ button {
 .text {
   display: flex;
   justify-self: flex-start;
-  padding: 70px;
+  padding: 60px;
+  font-size: 0.9em;
 }
 .gradient {
   width: 100%;
@@ -107,6 +108,7 @@ button {
 @media (max-width: 600px) {
   #container {
     flex-direction: column;
+    justify-content: normal;
   }
   .gradient {
     width: 100%;
@@ -115,9 +117,11 @@ button {
     max-width: 100%;
   }
 
+
   .form {
     width: 100vw;
     height: 40vh;
+    justify-content: normal;
   }
 
   #form-p2 {
